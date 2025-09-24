@@ -29,14 +29,16 @@ figure {
   padding: 20px;
   max-width: 360px;
   gap: 1rem;
-
+figcaption{
+  padding:1rem;
+}
   img {
     border-radius: 8px;
     width: 100%;
   }
   h1 {
     color: var(--clr-slate-900);
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 1rem;
     @media (max-width: 400px) {
       font-size: 18px;
@@ -59,4 +61,5 @@ figure {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
 
