@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background:var(--clr-slate-300);
 }
 figure {
   background-color: var(--clr-white);
@@ -58,3 +59,4 @@ figure {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
